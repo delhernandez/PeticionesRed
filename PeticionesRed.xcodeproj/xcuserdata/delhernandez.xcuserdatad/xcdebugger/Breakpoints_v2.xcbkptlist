@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3E3137BD-3117-4CE8-B116-33C5A229B4B2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "846B0495-1A7B-4E1E-9032-74EEA0E292E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeticionesRed/CustomPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadImagesOnBackground()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "846B0495-1A7B-4E1E-9032-74EEA0E292E3 - b20aa866daaaf8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PeticionesRed.CustomPresenter.loadImagesOnBackground() -&gt; ()"
+                  moduleName = "PeticionesRed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/delhernandez/Documents/Cev/PeticionesRed/PeticionesRed/CustomPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "846B0495-1A7B-4E1E-9032-74EEA0E292E3 - c09f7c608e67e2aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in PeticionesRed.CustomPresenter.loadImagesOnBackground() -&gt; ()"
+                  moduleName = "PeticionesRed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/delhernandez/Documents/Cev/PeticionesRed/PeticionesRed/CustomPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0874B3C2-A746-48B0-927D-9939DC0F1593"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeticionesRed/CustomPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loadImagesOnBackground()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1963D593-E266-42BD-B1D1-4615904B27C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeticionesRed/CustomPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadImagesOnBackground()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
