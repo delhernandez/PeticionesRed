@@ -7,26 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F97DAF42948FF2E00E19338 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97DAF32948FF2E00E19338 /* PokemonCell.swift */; };
+		7F97DAF62949017900E19338 /* PokemonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97DAF52949017900E19338 /* PokemonPresenter.swift */; };
 		FC6277522944CC7C007A9B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277512944CC7C007A9B1F /* AppDelegate.swift */; };
 		FC6277542944CC7C007A9B1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277532944CC7C007A9B1F /* SceneDelegate.swift */; };
-		FC6277562944CC7C007A9B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277552944CC7C007A9B1F /* ViewController.swift */; };
+		FC6277562944CC7C007A9B1F /* PokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277552944CC7C007A9B1F /* PokemonList.swift */; };
 		FC6277592944CC7C007A9B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6277572944CC7C007A9B1F /* Main.storyboard */; };
 		FC62775B2944CC7D007A9B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC62775A2944CC7D007A9B1F /* Assets.xcassets */; };
 		FC62775E2944CC7D007A9B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC62775C2944CC7D007A9B1F /* LaunchScreen.storyboard */; };
-		FC6277662944CCB6007A9B1F /* CustomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277652944CCB6007A9B1F /* CustomPresenter.swift */; };
+		FC6277662944CCB6007A9B1F /* PokemonListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277652944CCB6007A9B1F /* PokemonListPresenter.swift */; };
 		FC6277682944CEE1007A9B1F /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6277672944CEE1007A9B1F /* NetworkingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F97DAF32948FF2E00E19338 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		7F97DAF52949017900E19338 /* PokemonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonPresenter.swift; sourceTree = "<group>"; };
 		FC62774E2944CC7C007A9B1F /* PeticionesRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeticionesRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6277512944CC7C007A9B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC6277532944CC7C007A9B1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC6277552944CC7C007A9B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6277552944CC7C007A9B1F /* PokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonList.swift; sourceTree = "<group>"; };
 		FC6277582944CC7C007A9B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC62775A2944CC7D007A9B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC62775D2944CC7D007A9B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC62775F2944CC7D007A9B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC6277652944CCB6007A9B1F /* CustomPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresenter.swift; sourceTree = "<group>"; };
+		FC6277652944CCB6007A9B1F /* PokemonListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListPresenter.swift; sourceTree = "<group>"; };
 		FC6277672944CEE1007A9B1F /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F97DAF72949062600E19338 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F97DAF32948FF2E00E19338 /* PokemonCell.swift */,
+				FC6277552944CC7C007A9B1F /* PokemonList.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7F97DAF82949062F00E19338 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				7F97DAF52949017900E19338 /* PokemonPresenter.swift */,
+				FC6277652944CCB6007A9B1F /* PokemonListPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		7F97DAF92949063700E19338 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FC6277452944CC7C007A9B1F = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +89,12 @@
 		FC6277502944CC7C007A9B1F /* PeticionesRed */ = {
 			isa = PBXGroup;
 			children = (
+				7F97DAF92949063700E19338 /* Model */,
+				7F97DAF82949062F00E19338 /* Presenters */,
+				7F97DAF72949062600E19338 /* Views */,
 				FC6277512944CC7C007A9B1F /* AppDelegate.swift */,
 				FC6277532944CC7C007A9B1F /* SceneDelegate.swift */,
-				FC6277552944CC7C007A9B1F /* ViewController.swift */,
 				FC6277672944CEE1007A9B1F /* NetworkingClient.swift */,
-				FC6277652944CCB6007A9B1F /* CustomPresenter.swift */,
 				FC6277572944CC7C007A9B1F /* Main.storyboard */,
 				FC62775A2944CC7D007A9B1F /* Assets.xcassets */,
 				FC62775C2944CC7D007A9B1F /* LaunchScreen.storyboard */,
@@ -144,11 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6277562944CC7C007A9B1F /* ViewController.swift in Sources */,
+				FC6277562944CC7C007A9B1F /* PokemonList.swift in Sources */,
 				FC6277682944CEE1007A9B1F /* NetworkingClient.swift in Sources */,
+				7F97DAF62949017900E19338 /* PokemonPresenter.swift in Sources */,
 				FC6277522944CC7C007A9B1F /* AppDelegate.swift in Sources */,
 				FC6277542944CC7C007A9B1F /* SceneDelegate.swift in Sources */,
-				FC6277662944CCB6007A9B1F /* CustomPresenter.swift in Sources */,
+				FC6277662944CCB6007A9B1F /* PokemonListPresenter.swift in Sources */,
+				7F97DAF42948FF2E00E19338 /* PokemonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +325,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LF49H2GJ9U;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PeticionesRed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +335,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +343,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhdez.PeticionesRed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,9 +355,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LF49H2GJ9U;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PeticionesRed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -331,6 +365,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +373,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhdez.PeticionesRed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

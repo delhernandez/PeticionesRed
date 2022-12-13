@@ -11,26 +11,15 @@ class Networking {
     
     static let shared: Networking = Networking()
     
-    private let imagesUrl = "https://picsum.photos/200/300"
+    private let imagesUrl = "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=200"
     
-    func downloadImageUsingDataContent() -> Data? {
-        guard let url = URL(string: imagesUrl) else {
-            return nil
-        }
-        
-        do {
-            return try! Data(contentsOf: url)
-        }catch {
-            return nil
-        }
-    }
-    
-    func downloadImageUsingURLSession() {
-        // TODO: Use URLSession utils to download the image from the given URL
+
+    func getPokemonList(success: @escaping (Any) -> Void, error: @escaping (Error) -> Void) {
+        // TODO: Use URLSession utils to download the list of pokemons
         
     }
     
-    func downloadImageUsingAlamofire() {
-        // TODO: Use Alamofire utils to download the image from the given URL
+    func getPokemonDetail(detailUrl: URL, success: @escaping (Any) -> Void, error: @escaping (Error) -> Void) {
+        // TODO: Use URLSession utils to download the pokemon detail
     }
 }
